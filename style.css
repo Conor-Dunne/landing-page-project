@@ -56,11 +56,12 @@ body {
 .footer {
     background-color: #000000;
     color: #ffffff;
-    height: 100px;
+    height: fit-content;
     display: flex;
     flex-shrink: 0;
     justify-content: center;
     align-items: center;
+    padding: 30px;
     
 
 }
@@ -69,9 +70,11 @@ body {
     width: 1200px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.logo { font: bold 50px Verdana, Arial, Helvetica, sans-serif;       
+.logo { font: bold 50px Verdana, Arial, Helvetica, sans-serif;     
+    width: 420px;  
 }
 
 .section-one {
