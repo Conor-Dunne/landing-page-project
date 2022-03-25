@@ -12,7 +12,6 @@ body {
 .section-two,
 .section-three,
 .section-four{
-    flex: 1;
     padding: 60px 30px 60px 30px;
 }
 
@@ -24,7 +23,10 @@ body {
     text-shadow: 2px 2px 2px rgb(1 1 1 / 90%);    
     display: flex;
     flex-direction: column;
-    align-items: center;}
+    align-items: center;
+    text-align: center;
+
+}
 
 .section-two img{
     width: 210px;
@@ -63,12 +65,11 @@ body {
 .footer {
     background-color: #1f2937;
     color: #ffffff;
-    height: fit-content;
     display: flex;
     flex-shrink: 0;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 10px 30px 10px 30px;
     
 
 }
@@ -77,7 +78,7 @@ body {
 .section-one-wrapper,
 .section-two-wrapper
  {
-    width: 1200px;
+    width: 1000px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -91,7 +92,7 @@ body {
 }
 
 .section-three-wrapper p {
-    max-width: 1200px;
+    max-width: 1000px;
     font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; 
     font-size: 25px; 
     font-style: italic; 
@@ -100,7 +101,7 @@ body {
 
 .sign-up-box {
     background-color: #3882f6;
-    width: 1200px;
+    width: 1000px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -145,6 +146,7 @@ p {
 img {
     width: 400px;
     border-radius: 10%;
+    margin-top: 20px;
 }
 
 button {
